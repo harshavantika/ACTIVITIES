@@ -1,0 +1,14 @@
+Nint= 5
+Div=1
+s=0
+while Div<Nint:
+    if Nint% Div==0:
+        s+=Div
+    Div= Div+1
+
+if s>Nint:
+    print("The number", Nint, "is abundant")
+elif s<Nint:
+    print("The number", Nint, "is deficient")
+else:
+    print("The number", Nint, "is perfect")
